@@ -1,3 +1,4 @@
+
 import random
 
 while True:
@@ -23,7 +24,7 @@ while True:
         elif guess > secret_number:
             print("Too high!")
         else:
-            print(f"Correct! You guessed it in {attempts} attempts 🎉")
+            print(f"Correct! You guessed it in {attempts} attempts!")
             break
     else:
         print(f"Game over! The number was {secret_number}")
@@ -32,3 +33,5 @@ while True:
     if play_again != 'y':
         print("Thanks for playing!")
         break
+
+
